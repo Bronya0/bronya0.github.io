@@ -11,9 +11,9 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: '勾玉博客',
-  tagline: '个人技术博客, python,go,开源,django',
+  tagline: '个人技术博客, python/django/golang/gin/echo/kafka/es/ck',
   favicon: '/imgs/logo.jpg',
-  url: 'https://blog.ysboke.cn',
+  url: 'https://bronya0.github.io',
   baseUrl: '/',
   staticDirectories: ['static'],
   // organizationName: 'github', // Usually your GitHub org/user name.
