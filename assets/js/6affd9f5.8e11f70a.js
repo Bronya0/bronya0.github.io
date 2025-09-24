@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkblog_2=self.webpackChunkblog_2||[]).push([[8402],{684:a=>{a.exports=JSON.parse('{"tag":{"label":"kafka","permalink":"/posts/tags/kafka","allTagsPath":"/posts/tags","count":6,"unlisted":false},"listMetadata":{"permalink":"/posts/tags/kafka","page":1,"postsPerPage":10,"totalPages":1,"totalCount":6,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
