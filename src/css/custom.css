@@ -1,0 +1,206 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #2e8555;
+  --ifm-color-primary-dark: #29784c;
+  --ifm-color-primary-darker: #277148;
+  --ifm-color-primary-darkest: #205d3b;
+  --ifm-color-primary-light: #33925d;
+  --ifm-color-primary-lighter: #359962;
+  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+    /* 背景颜色 */
+/*  --ifm-background-color: #f3f2ee;
+  --ifm-background-surface-color: #f3f2ee;
+  */
+}
+
+[data-theme='light'] {
+    --ifm-title: #000;
+    --hero__title: #fff;
+}
+
+[data-theme='dark'] {
+    --ifm-title: #E3E3E3;
+    --hero__title: #E3E3E3;
+}
+
+.plugin-pages .hero--primary{
+    height: 93.8dvh;
+}
+
+.heroBanner_qdFl {
+    background: url(/imgs/bg3.jpg)  no-repeat;
+    background-size: cover;
+}
+
+/*首页文字绿色*/
+.hero__title, .hero__subtitle {
+  color: var(--hero__title);
+}
+
+/*列表页把内容置灰*/
+.blog-list-page .markdown {
+    color: grey;
+}
+
+/*列表页把标题置黑色*/
+.blog-list-page .title_f1Hy a, .blog-list-page .title_f1Hy a:hover, .blog-tags-post-list-page .title_f1Hy a, .blog-tags-post-list-page .title_f1Hy a:hover{
+    color: var(--ifm-title);
+}
+
+.margin-bottom--xl {
+    margin-bottom: 4rem !important;
+}
+
+
+
+.theme-code-block{
+    padding: 8px;
+}
+
+.prism-code {
+    font-family: consolas;
+}
+
+/*=======================仅限pc的样式================*/
+
+/*整体宽度*/
+@media (min-width: 997px) {
+
+/*细滚动条*/
+.thin-scrollbar {
+    scrollbar-width: inherit;
+}
+
+/*换行*/
+.hero__subtitle {
+  font-size: 1.5rem;
+  white-space: pre-wrap;
+}
+
+
+/*首页背景色*/
+/*首页全屏*/
+
+
+
+.navbar__brand {
+  font-size: 25px;
+}
+
+
+
+.container.margin-vert--lg {
+    max-width: 100% !important;
+}
+
+/*侧边栏最外层*/
+.margin-vert--lg aside {
+    --ifm-col-width: 20%;
+    padding-right: .5rem;
+}
+
+/*中心文章宽度*/
+.margin-vert--lg .col--7 {
+    margin: 0 0 0 115px;
+    --ifm-col-width: 48%;
+}
+
+/*右侧toc*/
+.margin-vert--lg .col--2 {
+    --ifm-col-width: 20%;
+}
+
+
+
+/*侧边栏整体*/
+.sidebar_re4s {
+/*    overflow-y: scroll;*/
+    top: 1.6rem !important;
+}
+
+
+/*侧边栏选中*/
+.sidebarItem__DBe:hover, .sidebarItemLinkActive_I1ZP {
+      background-color: var(--ifm-menu-color-background-active);
+  }
+
+/*每个侧边栏行*/
+.sidebarItem__DBe {
+    margin-top: .25rem !important;
+    line-height: 1.25;
+    font-size: 1.0rem;
+}
+
+/*每个侧边栏行里的标签连接*/
+.sidebarItemLink_mo7H {
+    padding: 8px;
+    color: #606770;
+}
+
+article h1 {
+    font-size: 2.2rem !important;
+}
+article h2 {
+    font-size: 1.8rem !important;
+}
+article h3 {
+    font-size: 1.5rem !important;
+}
+article h4 {
+    font-size: 1.5rem !important;
+}
+article h5 {
+    font-size: 1.5rem !important;
+}
+
+
+/*.cardContainer_Uewx:hover {
+    transition: all 200ms ease;
+    box-shadow: 0 1.5px 3px 0 #00000026;
+}*/
+/*关掉author*/
+.margin-bottom--xl .authorCol_Hf19 {
+    display: none;
+}
+/*标签页*/
+.container-h1{
+    padding-top: 10px;
+}
+/*标签、阅读全部上移*/
+.docusaurus-mt-lg {
+    margin-top: 1rem !important;
+}
+.cardContainer_Uewx{
+    margin-bottom: 0 !important;
+}
+
+
+.blog-list-page .title_f1Hy:hover:after {
+    padding-left: .5rem;
+    content: "#";
+    color: #2e8555;
+}
+
+.blog-post-page code {
+    margin: 0 2px;
+    padding: 3px 4px;
+    border-radius: 3px;
+    border: 0;
+}
+
+.padding--lg {
+    padding: 1rem !important;
+}
+
+
+
+
+}
