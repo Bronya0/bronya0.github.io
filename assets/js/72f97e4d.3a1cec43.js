@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkblog_2=self.webpackChunkblog_2||[]).push([[5227],{9306:s=>{s.exports=JSON.parse('{"tag":{"label":"UX","permalink":"/posts/tags/ux","allTagsPath":"/posts/tags","count":1,"unlisted":false},"listMetadata":{"permalink":"/posts/tags/ux","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);

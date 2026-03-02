@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkblog_2=self.webpackChunkblog_2||[]).push([[8682],{3038:s=>{s.exports=JSON.parse('{"tag":{"label":"GPU","permalink":"/posts/tags/gpu","allTagsPath":"/posts/tags","count":1,"unlisted":false},"listMetadata":{"permalink":"/posts/tags/gpu","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
