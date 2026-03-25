@@ -11,9 +11,9 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: '勾玉博客',
-  tagline: '个人技术博客, python/django/golang/gin/echo/kafka/es/ck',
+  tagline: '个人技术博客, python,go,开源,django',
   favicon: '/imgs/logo.jpg',
-  url: 'https://bronya0.github.io',
+  url: 'https://blog.ysboke.cn',
   baseUrl: '/',
   staticDirectories: ['static'],
   // organizationName: 'github', // Usually your GitHub org/user name.
@@ -150,6 +150,10 @@ const config = {
             position: 'left',
             items: [
               {
+                label: 'AgentGo',
+                to: '/posts/golang/agent-go',
+              },
+              {
                 label: 'Kafka-King',
                 to: '/posts/tags/kafka-king/',
               },
@@ -172,6 +176,21 @@ const config = {
               {
                 label: 'DreamTools',
                 href: 'https://ysboke.cn/tool/json',
+                target: '_blank',
+              },
+              {
+                label: 'Jetbrains-Darcula-Zed-Theme',
+                href: 'https://github.com/Bronya0/Jetbrains-Darcula-Zed-Theme',
+                target: '_blank',
+              },
+              {
+                label: 'OnlyWallpaper',
+                href: 'https://github.com/Bronya0/OnlyWallpaper',
+                target: '_blank',
+              },
+              {
+                label: 'OnlyWallpaper-Win',
+                href: 'https://github.com/Bronya0/OnlyWallpaper-Win',
                 target: '_blank',
               },
              ]
